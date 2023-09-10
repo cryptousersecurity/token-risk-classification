@@ -1,0 +1,28 @@
+
+# TSB-2023-015 AntiWhaleModification
+## Description
+
+The maximum transaction volume or maximum holding restrictions can be modified.
+
+## Pattern
+
+```solidity
+function _transfer(address from, address recipient, uint256 amount) internal virtual override returns (bool) {
+  require(_balances[_msgSender()] >= amount, );
+  _balances[_msgSender()] -= amount;
+  require(amount <= maxAmount,);
+  _balances[recipient] += (amount-fee);
+  emit Transfer(_msgSender(), recipient, amount-fee);
+  return true;
+  }
+ 
+  function setMaxAmount(uint256 _maxAmount) external onlyOwner {
+  maxAmount = _maxAmount;
+  }
+```
+
+## Samples
+ 
+- [01.sol](https://github.com/cryptousersecurity/token-security-benchmark/blob/main/src/TSB-2023-015/samples/01.sol) 
+- [02.sol](https://github.com/cryptousersecurity/token-security-benchmark/blob/main/src/TSB-2023-015/samples/02.sol) 
+- [03.sol](https://github.com/cryptousersecurity/token-security-benchmark/blob/main/src/TSB-2023-015/samples/03.sol)

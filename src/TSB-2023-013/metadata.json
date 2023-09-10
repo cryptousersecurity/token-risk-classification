@@ -1,0 +1,16 @@
+{
+  "id": "TSB-2023-013",
+  "name": "TransactionWhitelisting",
+  "description": "There are certain privileged addresses that are not affected by trading restrictions or the need to pay transaction taxes.",
+  "samples": [
+    {
+      "name": "01.sol"
+    },
+    {
+      "name": "02.sol"
+    },
+    {
+      "name": "03.sol"
+    }
+  ]
+}

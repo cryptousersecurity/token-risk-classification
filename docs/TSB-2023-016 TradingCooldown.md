@@ -1,0 +1,25 @@
+
+# TSB-2023-016 TradingCooldown
+## Description
+
+There needs to be a certain cooldown period between two transactions from the same address.
+
+## Pattern
+
+```solidity
+function _transfer(address from, address recipient, uint256 amount) internal virtual override returns (bool) {
+  require(_balances[_msgSender()] >= amount, );
+  _balances[_msgSender()] -= amount;
+  require(cooldownTimer[recipient] < block.timestamp, );
+  cooldownTimer[recipient] = block.timestamp + cooldownTimerInterval;
+  _balances[recipient] += (amount-fee);
+  emit Transfer(_msgSender(), recipient, amount-fee);
+  return true;
+  }
+```
+
+## Samples
+ 
+- [01.sol](https://github.com/cryptousersecurity/token-security-benchmark/blob/main/src/TSB-2023-016/samples/01.sol) 
+- [02.sol](https://github.com/cryptousersecurity/token-security-benchmark/blob/main/src/TSB-2023-016/samples/02.sol) 
+- [03.sol](https://github.com/cryptousersecurity/token-security-benchmark/blob/main/src/TSB-2023-016/samples/03.sol)

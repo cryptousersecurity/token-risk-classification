@@ -1,0 +1,19 @@
+
+# TSB-2023-006 SelfDestruction
+## Description
+
+The contract can be destroyed, resulting in the loss of all functionality and zeroing of assets.
+
+## Pattern
+
+```solidity
+function close(address payable to) external onlyOwner { 
+  selfdestruct(to); 
+  }
+```
+
+## Samples
+ 
+- [01.sol](https://github.com/cryptousersecurity/token-security-benchmark/blob/main/src/TSB-2023-006/samples/01.sol) 
+- [02.sol](https://github.com/cryptousersecurity/token-security-benchmark/blob/main/src/TSB-2023-006/samples/02.sol) 
+- [03.sol](https://github.com/cryptousersecurity/token-security-benchmark/blob/main/src/TSB-2023-006/samples/03.sol)

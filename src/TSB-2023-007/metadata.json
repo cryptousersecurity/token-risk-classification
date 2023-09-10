@@ -1,0 +1,16 @@
+{
+  "id": "TSB-2023-007",
+  "name": "ExternalInvocation",
+  "description": "Certain functions or logic judgments within the contract rely on external contracts.",
+  "samples": [
+    {
+      "name": "01.sol"
+    },
+    {
+      "name": "02.sol"
+    },
+    {
+      "name": "03.sol"
+    }
+  ]
+}

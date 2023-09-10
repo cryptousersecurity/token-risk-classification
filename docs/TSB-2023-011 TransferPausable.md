@@ -1,0 +1,28 @@
+
+# TSB-2023-011 TransferPausable
+## Description
+
+There is a toggle for trading. When the toggle is turned off, trading is restricted for non-designated addresses.
+
+## Pattern
+
+```solidity
+function _transfer(address from, address recipient, uint256 amount) internal virtual override returns (bool) {
+  require(_balances[_msgSender()] >= amount,);
+  require(tradeEnabled,);
+  _balances[_msgSender()] -= amount;
+  _balances[recipient] += amount;
+  emit Transfer(_msgSender(), recipient, amount);
+  return true;
+  }
+ 
+  function setTradeEnabled(bool _enabled) external onlyOwner {
+  tradeEnabled = _enabled;
+  }
+```
+
+## Samples
+ 
+- [01.sol](https://github.com/cryptousersecurity/token-security-benchmark/blob/main/src/TSB-2023-011/samples/01.sol) 
+- [02.sol](https://github.com/cryptousersecurity/token-security-benchmark/blob/main/src/TSB-2023-011/samples/02.sol) 
+- [03.sol](https://github.com/cryptousersecurity/token-security-benchmark/blob/main/src/TSB-2023-011/samples/03.sol)

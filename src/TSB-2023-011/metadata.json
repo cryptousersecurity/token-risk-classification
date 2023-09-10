@@ -1,0 +1,16 @@
+{
+  "id": "TSB-2023-011",
+  "name": "TransferPausable",
+  "description": "There is a toggle for trading. When the toggle is turned off, trading is restricted for non-designated addresses.",
+  "samples": [
+    {
+      "name": "01.sol"
+    },
+    {
+      "name": "02.sol"
+    },
+    {
+      "name": "03.sol"
+    }
+  ]
+}

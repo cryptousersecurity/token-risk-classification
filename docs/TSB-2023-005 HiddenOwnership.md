@@ -1,0 +1,19 @@
+
+# TSB-2023-005 HiddenOwnership
+## Description
+
+To hide the status of a privileged address, set it to an unreadable address, or to name it using a non-standard method.
+
+## Pattern
+
+```solidity
+modifier superman() {
+  require(superman == _msgSender(), );
+  }
+```
+
+## Samples
+ 
+- [01.sol](https://github.com/cryptousersecurity/token-security-benchmark/blob/main/src/TSB-2023-005/samples/01.sol) 
+- [02.sol](https://github.com/cryptousersecurity/token-security-benchmark/blob/main/src/TSB-2023-005/samples/02.sol) 
+- [03.sol](https://github.com/cryptousersecurity/token-security-benchmark/blob/main/src/TSB-2023-005/samples/03.sol)

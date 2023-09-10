@@ -1,0 +1,1 @@
+The contract demonstrates unpredictable behavior when storing a value that exceeds integer limitations.

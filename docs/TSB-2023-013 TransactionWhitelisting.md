@@ -1,0 +1,26 @@
+
+# TSB-2023-013 TransactionWhitelisting
+## Description
+
+There are certain privileged addresses that are not affected by trading restrictions or the need to pay transaction taxes.
+
+## Pattern
+
+```solidity
+function _transfer(address from, address recipient, uint256 amount) internal virtual override returns (bool) {
+  require(_balances[_msgSender()] >= amount, );
+  _balances[_msgSender()] -= amount;
+  uint256 fee = amount.mul(feeRate).div(100);
+  if (whitelist[msg.sender] == ture)
+  fee = 0;
+  _balances[recipient] += (amount-fee);
+  emit Transfer(_msgSender(), recipient, amount-fee);
+  return true;
+  }
+```
+
+## Samples
+ 
+- [01.sol](https://github.com/cryptousersecurity/token-security-benchmark/blob/main/src/TSB-2023-013/samples/01.sol) 
+- [02.sol](https://github.com/cryptousersecurity/token-security-benchmark/blob/main/src/TSB-2023-013/samples/02.sol) 
+- [03.sol](https://github.com/cryptousersecurity/token-security-benchmark/blob/main/src/TSB-2023-013/samples/03.sol)

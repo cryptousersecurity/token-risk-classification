@@ -63,7 +63,7 @@ func main() {
 			if err != nil {
 				log.Fatalf("failed to parse template: %v", err)
 			}
-			f, err := os.Create(filepath.Join("./docs", fmt.Sprintf("%s %s.md", item.ID, item.Name)))
+			f, err := os.Create(filepath.Join("./docs", fmt.Sprintf("%s.md", item.ID)))
 			if err != nil {
 				log.Fatalf("failed to create the docs file for risk item: %s, %v", item.ID, err)
 			}

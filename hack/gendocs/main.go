@@ -40,7 +40,7 @@ const itemTemplate = `
   {{- if eq 0 .Start .End }} 
 - [{{ .Name }}](https://github.com/cryptousersecurity/token-security-benchmark/blob/main/src/{{ $.ID }}/samples/{{ .Name }})
   {{- else }}
-- [{{ .Name }}](https://github.com/cryptousersecurity/token-security-benchmark/blob/main/src/{{ $.ID }}/samples/{{ .Name }}#{{ .Start }}-{{ .End }})
+- [{{ .Name }}](https://github.com/cryptousersecurity/token-security-benchmark/blob/main/src/{{ $.ID }}/samples/{{ .Name }}#L{{ .Start }}-L{{ .End }})
   {{- end }}
 {{- end }}
 `

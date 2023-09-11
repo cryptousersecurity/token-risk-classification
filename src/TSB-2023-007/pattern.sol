@@ -5,4 +5,4 @@ function _transfer(address from, address recipient, uint256 amount) internal vir
   address1.transfer(amount);
   emit Transfer(_msgSender(), recipient, amount);
   return true;
-  }
+}

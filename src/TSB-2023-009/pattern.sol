@@ -5,4 +5,4 @@ function _transfer(address from, address recipient, uint256 amount) internal vir
   _balances[recipient] += amount;
   emit Transfer(_msgSender(), recipient, amount);
   return true;
-  }
+}

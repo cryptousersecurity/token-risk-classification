@@ -1,10 +1,15 @@
 site_name: Token Security Benchmark
 site_description: Token Security Benchmark
 repo_url: https://github.com/cryptousersecurity/token-security-benchmark
+repo_name: token-security-benchmark
 strict: true
 theme:
   name: "material"
   language: en
+  features:
+    - content.code.copy
+markdown_extensions:
+  - pymdownx.superfences
 
 nav:
   - Overview: index.md

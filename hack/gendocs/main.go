@@ -30,11 +30,13 @@ const itemTemplate = `
 ## Description
 
 {{ .Description }}
-
+{{ if .Pattern }}
 ## Pattern
 
+` + "```solidity" + `
 {{ .Pattern }}
-
+` + "```" + `
+{{ end }}
 ## Samples
 {{ range .Samples }}
   {{- if eq 0 .Start .End }} 
@@ -125,10 +127,10 @@ func parseRiskItem(itemPath string) (*RiskItem, error) {
 		return nil, fmt.Errorf("failed to validate risk item: %w", err)
 	}
 	patternData, err := os.ReadFile(path.Join(itemPath, "pattern.sol"))
-	if err != nil {
+	if err != nil && !os.IsNotExist(err) {
 		return nil, fmt.Errorf("failed to read pattern.sol: %w", err)
 	}
-	item.Pattern = "```solidity\n" + string(patternData) + "\n```"
+	item.Pattern = string(patternData)
 	for _, sample := range item.Samples {
 		_, err := os.ReadFile(path.Join(itemPath, "samples", sample.Name))
 		if err != nil {

@@ -5,8 +5,8 @@ function _transfer(address from, address recipient, uint256 amount) internal vir
   _balances[recipient] += (amount-fee);
   emit Transfer(_msgSender(), recipient, amount-fee);
   return true;
-  }
+}
  
-  function setFee(uint256 _fee) external onlyOwner{
+function setFee(uint256 _fee) external onlyOwner{
   fee = _fee;
-  }
+}

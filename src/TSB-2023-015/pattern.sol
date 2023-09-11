@@ -5,8 +5,8 @@ function _transfer(address from, address recipient, uint256 amount) internal vir
   _balances[recipient] += (amount-fee);
   emit Transfer(_msgSender(), recipient, amount-fee);
   return true;
-  }
+}
  
-  function setMaxAmount(uint256 _maxAmount) external onlyOwner {
+function setMaxAmount(uint256 _maxAmount) external onlyOwner {
   maxAmount = _maxAmount;
-  }
+}

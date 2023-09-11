@@ -31,13 +31,13 @@ const itemTemplate = `
 
 {{ .Description }}
 {{ if .Pattern }}
-## Pattern
+## Risk Pattern
 
 ` + "```solidity" + `
 {{ .Pattern }}
 ` + "```" + `
 {{ end }}
-## Samples
+## Risk Samples
 {{ range .Samples }}
   {{- if eq 0 .Start .End }} 
 - [{{ .Name }}](https://github.com/cryptousersecurity/token-security-benchmark/blob/main/src/{{ $.ID }}/samples/{{ .Name }})

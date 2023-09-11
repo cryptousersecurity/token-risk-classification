@@ -5,6 +5,8 @@
 Fixes #
 
 **What type of PR is this?**
+
+Please check [contributing guideline](https://cryptousersecurity.github.io/token-security-benchmark/contributing/) for more details.
 - [ ] Add a new risk type
 - [ ] Add a new risk sample
 - [ ] Documentation update

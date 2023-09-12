@@ -1,0 +1,19 @@
+{
+  "id": "TSB-002",
+  "name": "Mintable",
+  "description": "Changing the percentage of a position by increasing the balance at a specific address.",
+  "samples": [
+    {
+      "name": "01.sol"
+    },
+    {
+      "name": "02.sol"
+    },
+    {
+      "name": "03.sol"
+    },
+    {
+      "name": "04.sol"
+    }
+  ]
+}

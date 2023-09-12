@@ -12,6 +12,6 @@ Please check [contributing guideline](https://cryptousersecurity.github.io/token
 - [ ] Documentation update
 
 **Your Ethereum address to receive reward in the future for your contribution**:
-```documentation
+```address
 
 ```

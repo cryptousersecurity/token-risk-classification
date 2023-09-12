@@ -4,7 +4,7 @@ This document describes the contribution guidelines for the Token Security Bench
 
 ## Risk Type Format
 
-All risk types are defined under [src](https://github.com/cryptousersecurity/token-security-benchmark/tree/main/src) folder with the name of the risk type ID. For example, `TSB-2023-001`. The folder should contain the following folders and files:
+All risk types are defined under [src](https://github.com/cryptousersecurity/token-security-benchmark/tree/main/src) folder with the name of the risk type ID. For example, `TSB-001`. The folder should contain the following folders and files:
 
 `metadata.json`: This file contains the metadata of the risk type. The metadata should be in the following format:
 ```json
@@ -52,7 +52,7 @@ Update the `samples` field in the `metadata.json` file of the risk type folder u
 
 ### Request a Risk Type ID
 
-Risk Type ID is defined in format `TSB-YYYY-NNN` where `YYYY` is the year and `NNN` is the number of the risk type in that year. For example, `TSB-2023-001` is the first risk type in 2023.
+Risk Type ID is defined in format `TSB-NNN` where `NNN` is the number of the risk type in that year. For example, `TSB-001`.
 Before adding a new risk type, please check if the risk type ID is already taken. If not, please request a new risk type ID by creating an issue in this repository. You can check the taken risk type IDs in under [src](https://github.com/cryptousersecurity/token-security-benchmark/tree/main/src) folder.
 
 ### Create a new Risk Type Folder

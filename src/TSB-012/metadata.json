@@ -1,0 +1,19 @@
+{
+  "id": "TSB-012",
+  "name": "PersonalSlippageModification",
+  "description": "Individual transaction taxes can be set for each address.",
+  "samples": [
+    {
+      "name": "01.sol"
+    },
+    {
+      "name": "02.sol"
+    },
+    {
+      "name": "03.sol"
+    },
+    {
+      "name": "04.sol"
+    }
+  ]
+}

@@ -1,1 +1,1 @@
-docs/index.md
+# Token Security Benchmark

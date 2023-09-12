@@ -1,4 +1,4 @@
-name: "Validate Semantic PR title"
+name: "Validate Semantic PR Title"
 
 on:
   pull_request:

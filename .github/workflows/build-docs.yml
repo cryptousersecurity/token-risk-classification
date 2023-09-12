@@ -1,15 +1,12 @@
-name: "Publish Docs"
+name: "Build Docs"
 on:
-  push:
+  pull_request:
     branches:
       - main
-    paths:
-      - 'docs/**'
-      - 'mkdocs.yml'
 permissions:
   contents: write
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -24,4 +21,4 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install mkdocs-material
-      - run: mkdocs gh-deploy --force
+      - run: mkdocs build

@@ -1,6 +1,6 @@
-# Token Security Benchmark (TSB)
+# Token Security Benchmark
 
-The `token-security-benchmark` is a comprehensive repository aimed at identifying and cataloging scams like honeypots, and intentional backdoors that may be present in token smart contracts within the crypto ecosystem. This benchmark serves as:
+Token Security Benchmark(TSB) aims at identifying and cataloging scams like honeypots, and intentional backdoors that may be present in token smart contracts within the crypto ecosystem. This benchmark serves as:
 
 - **A Shield against Malicious Contracts:** By showcasing a defined list of malicious token contract patterns, it empowers users and project teams to recognize and steer clear of contracts with hidden intents, thereby ensuring safer interactions within the decentralized space.
 
@@ -15,14 +15,10 @@ The `token-security-benchmark` is a comprehensive repository aimed at identifyin
 - **Descriptions:** Each pattern is thoroughly dissected, detailing its operation, potential consequences, and techniques for avoidance.
 - **Real-world Samples:** For each pattern, contract samples that exemplify the described malicious intent are provided, forming a practical point of reference.
 
-## How to Contribute
+## Contribute
 
 Maintaining the relevance and comprehensiveness of this repository is a joint endeavor. We earnestly welcome community contributions. For details on how to contribute, kindly refer to our [Contribution Guidelines](./CONTRIBUTING.md).
 
 ## Acknowledgments
 
 Our profound gratitude to all developers, researchers, and crypto enthusiasts who have been instrumental in shaping this repository. We hope to collaboratively fortify crypto user security and invite everyone to join this collective endeavor.
-
-## License
-
-This repository is distributed under the Apache License, Version 2.0. For more specifics, please review our [LICENSE](./LICENSE) file.

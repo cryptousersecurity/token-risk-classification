@@ -1,0 +1,19 @@
+{
+  "id": "TSB-010",
+  "name": "SlippageModification",
+  "description": "The transaction tax rate is subject to modification.",
+  "samples": [
+    {
+      "name": "01.sol"
+    },
+    {
+      "name": "02.sol"
+    },
+    {
+      "name": "03.sol"
+    },
+    {
+      "name": "04.sol"
+    }
+  ]
+}

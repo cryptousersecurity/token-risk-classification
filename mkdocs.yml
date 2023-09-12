@@ -15,20 +15,20 @@ markdown_extensions:
 nav:
   - Overview: index.md
   - Risk Types:
-    - TSB-2023-001 Honeypot: TSB-2023-001.md
-    - TSB-2023-002 Mintable: TSB-2023-002.md
-    - TSB-2023-003 OwnershipRetrieval: TSB-2023-003.md
-    - TSB-2023-004 BalanceManipulation: TSB-2023-004.md
-    - TSB-2023-005 HiddenOwnership: TSB-2023-005.md
-    - TSB-2023-006 SelfDestruction: TSB-2023-006.md
-    - TSB-2023-007 ExternalInvocation: TSB-2023-007.md
-    - TSB-2023-008 BlackListFunction: TSB-2023-008.md
-    - TSB-2023-009 FullSaleRestriction: TSB-2023-009.md
-    - TSB-2023-010 SlippageModification: TSB-2023-010.md
-    - TSB-2023-011 TransferPausable: TSB-2023-011.md
-    - TSB-2023-012 PersonalSlippageModification: TSB-2023-012.md
-    - TSB-2023-013 TransactionWhitelisting: TSB-2023-013.md
-    - TSB-2023-014 AntiWhale: TSB-2023-014.md
-    - TSB-2023-015 AntiWhaleModification: TSB-2023-015.md
-    - TSB-2023-016 TradingCooldown: TSB-2023-016.md
+    - TSB-001 Honeypot: TSB-001.md
+    - TSB-002 Mintable: TSB-002.md
+    - TSB-003 OwnershipRetrieval: TSB-003.md
+    - TSB-004 BalanceManipulation: TSB-004.md
+    - TSB-005 HiddenOwnership: TSB-005.md
+    - TSB-006 SelfDestruction: TSB-006.md
+    - TSB-007 ExternalInvocation: TSB-007.md
+    - TSB-008 BlackListFunction: TSB-008.md
+    - TSB-009 FullSaleRestriction: TSB-009.md
+    - TSB-010 SlippageModification: TSB-010.md
+    - TSB-011 TransferPausable: TSB-011.md
+    - TSB-012 PersonalSlippageModification: TSB-012.md
+    - TSB-013 TransactionWhitelisting: TSB-013.md
+    - TSB-014 AntiWhale: TSB-014.md
+    - TSB-015 AntiWhaleModification: TSB-015.md
+    - TSB-016 TradingCooldown: TSB-016.md
   - Contributing: contributing.md

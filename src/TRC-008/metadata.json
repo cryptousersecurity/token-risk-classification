@@ -1,0 +1,19 @@
+{
+  "id": "TRC-008",
+  "name": "BlackListFunction",
+  "description": "Restrict trading to specific addresses, preventing them from buying/selling, or selling only at a high loss",
+  "samples": [
+    {
+      "name": "01.sol"
+    },
+    {
+      "name": "02.sol"
+    },
+    {
+      "name": "03.sol"
+    },
+    {
+      "name": "04.sol"
+    }
+  ]
+}

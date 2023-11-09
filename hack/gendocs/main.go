@@ -40,9 +40,9 @@ const itemTemplate = `
 ## Risk Samples
 {{ range .Samples }}
   {{- if eq 0 .Start .End }} 
-- [{{ .Name }}](https://github.com/cryptousersecurity/token-security-benchmark/blob/main/src/{{ $.ID }}/samples/{{ .Name }})
+- [{{ .Name }}](https://github.com/cryptousersecurity/token-risk-classification/blob/main/src/{{ $.ID }}/samples/{{ .Name }})
   {{- else }}
-- [{{ .Name }}](https://github.com/cryptousersecurity/token-security-benchmark/blob/main/src/{{ $.ID }}/samples/{{ .Name }}#L{{ .Start }}-L{{ .End }})
+- [{{ .Name }}](https://github.com/cryptousersecurity/token-risk-classification/blob/main/src/{{ $.ID }}/samples/{{ .Name }}#L{{ .Start }}-L{{ .End }})
   {{- end }}
 {{- end }}
 `
@@ -55,7 +55,7 @@ func main() {
 	}
 
 	for _, entry := range entries {
-		if entry.IsDir() && strings.HasPrefix(entry.Name(), "TSB-") {
+		if entry.IsDir() && strings.HasPrefix(entry.Name(), "TRC-") {
 			itemPath := filepath.Join(src, entry.Name())
 			item, err := parseRiskItem(itemPath)
 			if err != nil {

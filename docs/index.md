@@ -1,10 +1,10 @@
-# Token Security Benchmark
+# Token Risk Classification
 
-Token Security Benchmark(TSB) aims at identifying and cataloging scams like honeypots, and intentional backdoors that may be present in token smart contracts within the crypto ecosystem. This benchmark serves as:
+Token Risk Classification(TRC) aims at identifying and cataloging scams like honeypots, and intentional backdoors that may be present in token smart contracts within the crypto ecosystem. This classification serves as:
 
 - **A Shield against Malicious Contracts:** By showcasing a defined list of malicious token contract patterns, it empowers users and project teams to recognize and steer clear of contracts with hidden intents, thereby ensuring safer interactions within the decentralized space.
 
-- **A Testing Ground for Developers:** With a clear classification of malicious patterns and real-world examples, developers creating tools to detect these malicious token smart contracts can effectively evaluate their systems against a standardized benchmark.
+- **A Testing Ground for Developers:** With a clear classification of malicious patterns and real-world examples, developers creating tools to detect these malicious token smart contracts can effectively evaluate their systems against a standardized classification.
 
 - **A Catalyst for Research:** By elucidating the deceitful practices adopted in token smart contracts, we aspire to drive more research towards crypto user safety, encouraging the community to devise strategies that deter such behaviors.
 

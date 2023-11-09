@@ -1,7 +1,7 @@
-site_name: Token Security Benchmark
-site_description: Token Security Benchmark
-repo_url: https://github.com/cryptousersecurity/token-security-benchmark
-repo_name: token-security-benchmark
+site_name: Token Risk Classification
+site_description: Token Risk Classification
+repo_url: https://github.com/cryptousersecurity/token-risk-classification
+repo_name: token-risk-classification
 strict: true
 theme:
   name: "material"
@@ -15,20 +15,20 @@ markdown_extensions:
 nav:
   - Overview: index.md
   - Risk Types:
-    - TSB-001 Honeypot: TSB-001.md
-    - TSB-002 Mintable: TSB-002.md
-    - TSB-003 OwnershipRetrieval: TSB-003.md
-    - TSB-004 BalanceManipulation: TSB-004.md
-    - TSB-005 HiddenOwnership: TSB-005.md
-    - TSB-006 SelfDestruction: TSB-006.md
-    - TSB-007 ExternalInvocation: TSB-007.md
-    - TSB-008 BlackListFunction: TSB-008.md
-    - TSB-009 FullSaleRestriction: TSB-009.md
-    - TSB-010 SlippageModification: TSB-010.md
-    - TSB-011 TransferPausable: TSB-011.md
-    - TSB-012 PersonalSlippageModification: TSB-012.md
-    - TSB-013 TransactionWhitelisting: TSB-013.md
-    - TSB-014 AntiWhale: TSB-014.md
-    - TSB-015 AntiWhaleModification: TSB-015.md
-    - TSB-016 TradingCooldown: TSB-016.md
+    - TRC-001 Honeypot: TRC-001.md
+    - TRC-002 Mintable: TRC-002.md
+    - TRC-003 OwnershipRetrieval: TRC-003.md
+    - TRC-004 BalanceManipulation: TRC-004.md
+    - TRC-005 HiddenOwnership: TRC-005.md
+    - TRC-006 SelfDestruction: TRC-006.md
+    - TRC-007 ExternalInvocation: TRC-007.md
+    - TRC-008 BlackListFunction: TRC-008.md
+    - TRC-009 FullSaleRestriction: TRC-009.md
+    - TRC-010 SlippageModification: TRC-010.md
+    - TRC-011 TransferPausable: TRC-011.md
+    - TRC-012 PersonalSlippageModification: TRC-012.md
+    - TRC-013 TransactionWhitelisting: TRC-013.md
+    - TRC-014 AntiWhale: TRC-014.md
+    - TRC-015 AntiWhaleModification: TRC-015.md
+    - TRC-016 TradingCooldown: TRC-016.md
   - Contributing: contributing.md

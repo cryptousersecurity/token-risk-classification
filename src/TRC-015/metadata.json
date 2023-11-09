@@ -1,0 +1,19 @@
+{
+  "id": "TRC-015",
+  "name": "AntiWhaleModification",
+  "description": "The maximum transaction volume or maximum holding restrictions can be modified.",
+  "samples": [
+    {
+      "name": "01.sol"
+    },
+    {
+      "name": "02.sol"
+    },
+    {
+      "name": "03.sol"
+    },
+    {
+      "name": "04.sol"
+    }
+  ]
+}

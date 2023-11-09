@@ -1,0 +1,19 @@
+{
+  "id": "TRC-005",
+  "name": "HiddenOwnership",
+  "description": "To hide the status of a privileged address, set it to an unreadable address, or to name it using a non-standard method.",
+  "samples": [
+    {
+      "name": "01.sol"
+    },
+    {
+      "name": "02.sol"
+    },
+    {
+      "name": "03.sol"
+    },
+    {
+      "name": "04.sol"
+    }
+  ]
+}

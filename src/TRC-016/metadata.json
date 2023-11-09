@@ -1,0 +1,19 @@
+{
+  "id": "TRC-016",
+  "name": "TradingCooldown",
+  "description": "There needs to be a certain cooldown period between two transactions from the same address.",
+  "samples": [
+    {
+      "name": "01.sol"
+    },
+    {
+      "name": "02.sol"
+    },
+    {
+      "name": "03.sol"
+    },
+    {
+      "name": "04.sol"
+    }
+  ]
+}

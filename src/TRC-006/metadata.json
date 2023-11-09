@@ -1,0 +1,19 @@
+{
+  "id": "TRC-006",
+  "name": "SelfDestruction",
+  "description": "The contract can be destroyed, resulting in the loss of all functionality and zeroing of assets.",
+  "samples": [
+    {
+      "name": "01.sol"
+    },
+    {
+      "name": "02.sol"
+    },
+    {
+      "name": "03.sol"
+    },
+    {
+      "name": "04.sol"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "TRC-004",
+  "name": "BalanceManipulation",
+  "description": "Changes can be made to the user's balance without the user's allowance to achieve a reduction in the percentage of the user's position.",
+  "samples": [
+    {
+      "name": "01.sol"
+    },
+    {
+      "name": "02.sol"
+    },
+    {
+      "name": "03.sol"
+    },
+    {
+      "name": "04.sol"
+    }
+  ]
+}

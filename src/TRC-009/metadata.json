@@ -1,7 +1,7 @@
 {
   "id": "TRC-009",
-  "name": "FullSaleRestriction",
-  "description": "Users are unable to sell their entire position all at once. They can only trade a portion as a percentage or retain a certain amount of holdings.",
+  "name": "WhiteListFunction",
+  "description": "WhiteListFunction is used to allow specific addresses to make early transactions, tax-free, and unaffected by transaction suspensions. For contracts without an owner, or if the owner is a black hole address, the whitelist cannot be updated, but the existing whitelist remains in effect.",
   "samples": [
     {
       "name": "01.sol"

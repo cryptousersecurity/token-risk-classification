@@ -1,7 +1,7 @@
 {
   "id": "TRC-001",
   "name": "Honeypot",
-  "description": "This is a honeypot smart contract sample demonstrating unpredictable behavior when storing a value that exceeds integer limitations.",
+  "description": "A Honeypot token refers to a malicious token smart contract designed to attract users to buy the token but prevent them from selling it. This is achieved through malicious code within the contract, which traps the user's assets, leading to potential financial loss.",
   "samples": [
     {
       "name": "01.sol"

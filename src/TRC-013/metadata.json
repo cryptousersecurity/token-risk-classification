@@ -1,7 +1,7 @@
 {
   "id": "TRC-013",
-  "name": "TransactionWhitelisting",
-  "description": "There are certain privileged addresses that are not affected by trading restrictions or the need to pay transaction taxes.",
+  "name": "SaleRestriction",
+  "description": "SaleRestriction prevents users from selling all their tokens in a single sale. Users may be required to retain a certain percentage, such as 10%, or a fixed number of tokens, such as 10 tokens.",
   "samples": [
     {
       "name": "01.sol"

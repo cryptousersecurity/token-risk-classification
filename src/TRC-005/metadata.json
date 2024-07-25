@@ -1,7 +1,7 @@
 {
   "id": "TRC-005",
   "name": "HiddenOwnership",
-  "description": "To hide the status of a privileged address, set it to an unreadable address, or to name it using a non-standard method.",
+  "description": "Hidden ownership is used by developers to maintain ownership ability even after abandoning ownership, and is often an indicator of malicious intent. When a hidden owner exists, the ownership has not been abandoned.",
   "samples": [
     {
       "name": "01.sol"

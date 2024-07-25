@@ -1,7 +1,7 @@
 {
   "id": "TRC-011",
   "name": "TransferPausable",
-  "description": "There is a toggle for trading. When the toggle is turned off, trading is restricted for non-designated addresses.",
+  "description": "TransferPausable allows the contract owner to suspend trading at any time, preventing anyone from selling except those with special authority. This function generally relies on ownership. If the contract does not have an owner, or if the owner is a black hole address and cannot be retrieved, this function maybe be disabled.",
   "samples": [
     {
       "name": "01.sol"

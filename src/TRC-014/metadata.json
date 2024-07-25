@@ -1,7 +1,7 @@
 {
   "id": "TRC-014",
   "name": "AntiWhale",
-  "description": "The contract imposes restrictions on the maximum transaction volume or maximum holding amount.",
+  "description": "AntiWhale describes whether the contract limits the maximum transaction amount or the maximum token holding for a single address. ",
   "samples": [
     {
       "name": "01.sol"

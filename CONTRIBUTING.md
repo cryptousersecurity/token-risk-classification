@@ -59,6 +59,10 @@ Before adding a new risk type, please check if the risk type ID is already taken
 
 Create a folder under [src](https://github.com/cryptousersecurity/token-risk-classification/tree/main/src) folder with the name of the risk type ID. Add folders and files based on the [Risk Type Format](#risk-type-format) section.
 
+### Update mkdocs.yml
+
+Add the new risk type to the `Risk Types` list under `nav` section in [mkdocs.yml](https://github.com/cryptousersecurity/token-risk-classification/blob/main/mkdocs.yml#L17).
+
 ## Update Documentation
 Everytime you add a new risk type or add new risk samples to an existing risk type, please update the documentation by executing the following command:
 ```bash
